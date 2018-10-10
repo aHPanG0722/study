@@ -15,8 +15,7 @@ public class NumberCount {
         if (a1 == 1) {
             System.out.println("请输入题目的数量");
             Scanner scan2 = new Scanner(System.in);
-            x = scan2.nextInt();
-            //int daan[] = new int[x];
+            x = scan2.nextInt();       
             for (i = 0; i < x; i++) {
                 int a = (int) (Math.random() * 100);//随机生成一个1-100的整数
                 int b = (int) (Math.random() * 100);//随机生成一个1-100的整数
